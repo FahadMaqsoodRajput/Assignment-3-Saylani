@@ -1,0 +1,222 @@
+.body{
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+  font-family: 'Acme', sans-serif;
+}
+.topbar{
+    background-color:#316DC3;
+    text-align: center;
+    max-height: 1000PX;
+    
+}
+.topbar,i{
+    padding: 8px;
+}
+.topbar,p{
+    color: #fff;
+}
+button{
+    color: #000;
+    width: 90PX;
+    height: 30px;
+    font-size: 0.7rem;
+}
+ 
+.navbar-brand{
+    width: 40%;
+    margin-left: 80px;
+}
+.navbar li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.navbar{
+    border-bottom: 2px solid  whitesmoke;
+
+    background-color: #fff;
+}
+
+.navbar ul a:hover{
+    background-color: #316dc3;
+    color:#fff;
+    border: 2px solid #316dc3;
+    border-radius: 15px;
+}
+.Slider{
+  background-attachment: cover;
+  margin-top: 145px;
+  max-width:1348;
+  max-height: 525;
+}
+
+.main-content{
+    background-color: rgba(238, 238, 238, 0.774);
+}
+marquee{
+    background-color: #316DC3;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3px;
+    margin: 0px 40px 0px 40px;
+   
+}
+.main-content h1{
+    font-family: 'Merriweather';
+    font-weight: bold;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.main-content p{
+    color: #898d91;
+   padding: 20px;
+   padding-left: 201px;
+   padding-right: 201px;
+}
+.counter{
+    width: 1349px;
+    height: 270PX;
+    background-color: #3156e6;
+    text-align: center;
+    padding: 30px;
+}
+
+#food{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+#family{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+#medical{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+#education{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+.r1 p{
+    color: blue;
+    font-weight: bold;
+    line-height: 4rem;
+
+
+}
+.services p{
+    color: blue;
+    font-weight: bold;
+    line-height: 4rem;
+}
+.col-sm-4{
+  border: 2px solid whitesmoke;
+    box-shadow: 10px 10px 15px  rgb(231, 228, 228);
+    width: 364px;
+    height: 185px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.pro{
+    border: 3px solid whitesmoke;
+    background-color: whitesmoke;
+
+    margin: 15px;
+    width: 300px;
+    height: 83px;
+}
+.pro p{
+    color: blue;
+    font-weight: bold;
+}
+
+.second{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: rebeccapurple;
+  }
+  
+  h2::before, h2::after {
+    flex: 1;
+    height: 3px;
+    content: '';
+    background-color: green;
+  }
+  
+  h2::before { margin-right: 10px; }
+  h2::after  { margin-left:  10px; }
+
+  #images img{
+      margin: 0px;
+      padding: 5px;
+  }
+ .footer{
+      background-color: #25272e;
+      width: 1349px;
+      height: 357px;
+      color: white;
+      padding-top: 70PX;
+      padding-left: 70px;
+
+  }
+  .bottom p{
+    color: #5b7194  ;
+  }
+  .bottom i{
+      text-align: left;
+      color: #5b7194  ;
+  }
+
+  .container-fluid{
+      text-align: center;
+  }
+  .copyright{
+      background-color:#316DC3;
+      height: 50px;
+  }
+  .copyright p{
+      text-align: center;
+      padding-top: 10px;
+  }
+
+.top{
+    position: fixed;
+    top: 490px;
+    right: 10px;
+}
